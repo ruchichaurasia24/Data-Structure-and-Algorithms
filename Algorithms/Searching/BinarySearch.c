@@ -4,7 +4,6 @@ void print(int a[],int n){
         printf("%d ",a[i]);
     printf("\n");
 }
-    
 int binarySearch(int a[],int n,int s){
     int f=0;
     int l=n-1;
@@ -37,7 +36,5 @@ int main()
         printf("\nElement is not found in the array");  
     else  
         printf("\n%d Element is found at %d position of array",s, result);  
-  return 0;  
-
     return 0;
 }
